@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimedPageControlView_Example' do
+  pod 'TimedPageControlView', :path => '../'
+
+  target 'TimedPageControlView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
