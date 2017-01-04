@@ -7,6 +7,8 @@
 
 ## Example
 
+![Demo TimedPageControlView](https://github.com/danamajid/TimedPageControlView/raw/master/demo.gif)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
