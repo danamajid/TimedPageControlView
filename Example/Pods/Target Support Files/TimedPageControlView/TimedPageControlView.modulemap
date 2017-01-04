@@ -1,0 +1,6 @@
+framework module TimedPageControlView {
+  umbrella header "TimedPageControlView-umbrella.h"
+
+  export *
+  module * { export * }
+}

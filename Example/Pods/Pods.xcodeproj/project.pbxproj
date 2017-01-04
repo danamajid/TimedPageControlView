@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFC8124D0BF53FD9D10FFEDD4B1C6C1 /* Pods-TimedPageControlView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8C33EDE484C6D96E984E32F74A2862 /* Pods-TimedPageControlView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D83D61D2E79FF49DD8D704389ABABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		54912A325489F612B251C39A6A9585A6 /* TimedPageControlView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2401AB020201045A57D2474CBF15FEBA /* TimedPageControlView-dummy.m */; };
+		7E16B1C572013F2D1D53C17FFD5BA73F /* Pods-TimedPageControlView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14CDF8C0FBFA038011AA5C1E9F22020 /* Pods-TimedPageControlView_Tests-dummy.m */; };
+		8926D63C48FB597F4437CE4344255098 /* TimedPageControlView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB06A1D85AFFD5C24013FAB6A1537644 /* TimedPageControlView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF671A8F5826F86618D84A60ADA0FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B2A147D5819D16041EAA87285C277FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BA0047BC516307D99DB7B6ABAA83D251 /* Pods-TimedPageControlView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F4A91C8866A42A75D51952FE47327 /* Pods-TimedPageControlView_Example-dummy.m */; };
+		CD0CD8C85742F16EED7F8794B34E0BAA /* TimedPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC4A70DDA628481CAE47F5BA802083 /* TimedPageControlView.swift */; };
+		FF40E6913DB0FDB4BE2656E9446C1024 /* Pods-TimedPageControlView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4144FB85C6E857AB12904162A56F1643 /* Pods-TimedPageControlView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8542E57566F8D40A6AC30B5F062DD5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420B48214823273491B44112D4353E14;
+			remoteInfo = TimedPageControlView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D6207EED56FF18BCFF6AE98E124E719 /* TimedPageControlView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimedPageControlView.modulemap; sourceTree = "<group>"; };
+		1289A0F41B5B5DDA91C927BF5586E424 /* Pods-TimedPageControlView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimedPageControlView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BEA79A561D1BCBFBDFB54CB2827B857 /* Pods-TimedPageControlView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedPageControlView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2401AB020201045A57D2474CBF15FEBA /* TimedPageControlView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimedPageControlView-dummy.m"; sourceTree = "<group>"; };
+		348893B96D0B15C0BC335957A5C7F96A /* TimedPageControlView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimedPageControlView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4144FB85C6E857AB12904162A56F1643 /* Pods-TimedPageControlView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedPageControlView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4590A0E0A370E11F842C59CC59DAD4B6 /* Pods-TimedPageControlView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimedPageControlView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		471F81EF1520D33A9A1865CC93278F97 /* Pods-TimedPageControlView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedPageControlView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		47CCDABFABC6D18964A936CDE254525A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FFDF75EC9D6D2158A476AF8FD4E0CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8C33EDE484C6D96E984E32F74A2862 /* Pods-TimedPageControlView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimedPageControlView_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B721342EDD1238A870255F2AD20C24E /* TimedPageControlView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimedPageControlView.xcconfig; sourceTree = "<group>"; };
+		6C0C19DDB8D3E3043319E56259458C96 /* Pods-TimedPageControlView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedPageControlView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75A9BCCB8542641574CD9FE25D160FC0 /* Pods_TimedPageControlView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedPageControlView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891F4A91C8866A42A75D51952FE47327 /* Pods-TimedPageControlView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedPageControlView_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A121806E64C72EEE2694EDAE393DAFF4 /* Pods-TimedPageControlView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimedPageControlView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8F773442BC18E0B47D34F5BB3DF967F /* TimedPageControlView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedPageControlView-prefix.pch"; sourceTree = "<group>"; };
+		A96EFE35BFA6CCE9ACE0E5627F437CE4 /* Pods-TimedPageControlView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimedPageControlView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFBA592E73AFEB312A624654ABA7ED5C /* Pods-TimedPageControlView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedPageControlView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BE531AF7F45824508116211484B776AD /* Pods-TimedPageControlView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimedPageControlView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C39AB1849E108632367B0F61E244BA79 /* Pods-TimedPageControlView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimedPageControlView_Example.modulemap"; sourceTree = "<group>"; };
+		C66035958069384E7DC4AEF1F5D14389 /* Pods-TimedPageControlView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedPageControlView_Tests-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D00131E065E7987986ED0EE104240B8E /* Pods-TimedPageControlView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedPageControlView_Example-resources.sh"; sourceTree = "<group>"; };
+		D7BC2C440B29E6393423C5BCA99329AA /* Pods-TimedPageControlView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimedPageControlView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D8FC4A70DDA628481CAE47F5BA802083 /* TimedPageControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimedPageControlView.swift; sourceTree = "<group>"; };
+		E43D4717E09A5AD28692585415D57713 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14CDF8C0FBFA038011AA5C1E9F22020 /* Pods-TimedPageControlView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimedPageControlView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F93754D58813E7FBBDCD0803D16E99A7 /* Pods_TimedPageControlView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimedPageControlView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB06A1D85AFFD5C24013FAB6A1537644 /* TimedPageControlView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimedPageControlView-umbrella.h"; sourceTree = "<group>"; };
+		FF9956961990176F8E5AD66E3707C732 /* Pods-TimedPageControlView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimedPageControlView_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1C063B34A236ECED195CE9710341E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D83D61D2E79FF49DD8D704389ABABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC42124DE8CF022A76B41BEFBE4B45ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF671A8F5826F86618D84A60ADA0FEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B6776B7566550CED908EB57F1653B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A147D5819D16041EAA87285C277FB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A15FAB95838102845298FF45AE1AFE /* Pods-TimedPageControlView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E43D4717E09A5AD28692585415D57713 /* Info.plist */,
+				FF9956961990176F8E5AD66E3707C732 /* Pods-TimedPageControlView_Tests.modulemap */,
+				A96EFE35BFA6CCE9ACE0E5627F437CE4 /* Pods-TimedPageControlView_Tests-acknowledgements.markdown */,
+				1289A0F41B5B5DDA91C927BF5586E424 /* Pods-TimedPageControlView_Tests-acknowledgements.plist */,
+				F14CDF8C0FBFA038011AA5C1E9F22020 /* Pods-TimedPageControlView_Tests-dummy.m */,
+				D7BC2C440B29E6393423C5BCA99329AA /* Pods-TimedPageControlView_Tests-frameworks.sh */,
+				C66035958069384E7DC4AEF1F5D14389 /* Pods-TimedPageControlView_Tests-resources.sh */,
+				4144FB85C6E857AB12904162A56F1643 /* Pods-TimedPageControlView_Tests-umbrella.h */,
+				471F81EF1520D33A9A1865CC93278F97 /* Pods-TimedPageControlView_Tests.debug.xcconfig */,
+				1BEA79A561D1BCBFBDFB54CB2827B857 /* Pods-TimedPageControlView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TimedPageControlView_Tests";
+			path = "Target Support Files/Pods-TimedPageControlView_Tests";
+			sourceTree = "<group>";
+		};
+		04C2B5D66C9DA8B450B3C82B21E85456 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C596583CADFE9F45A12A4425E74411 /* TimedPageControlView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		369EC24422C9A5B4C65870A0FC4B5229 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CCDABFABC6D18964A936CDE254525A /* Info.plist */,
+				0D6207EED56FF18BCFF6AE98E124E719 /* TimedPageControlView.modulemap */,
+				6B721342EDD1238A870255F2AD20C24E /* TimedPageControlView.xcconfig */,
+				2401AB020201045A57D2474CBF15FEBA /* TimedPageControlView-dummy.m */,
+				A8F773442BC18E0B47D34F5BB3DF967F /* TimedPageControlView-prefix.pch */,
+				FB06A1D85AFFD5C24013FAB6A1537644 /* TimedPageControlView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimedPageControlView";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				04C2B5D66C9DA8B450B3C82B21E85456 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E80BC9B5A467B21A4E830CA42EF860B /* Products */,
+				EAFA82946BDB736CF8E405B4AB5AEB2E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E80BC9B5A467B21A4E830CA42EF860B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93754D58813E7FBBDCD0803D16E99A7 /* Pods_TimedPageControlView_Example.framework */,
+				75A9BCCB8542641574CD9FE25D160FC0 /* Pods_TimedPageControlView_Tests.framework */,
+				348893B96D0B15C0BC335957A5C7F96A /* TimedPageControlView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A2F93BB001C3AC14664A1A3F1A0949A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8FC4A70DDA628481CAE47F5BA802083 /* TimedPageControlView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A4F392860B5B5220D7CB169CFA4B87F0 /* Pods-TimedPageControlView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				55FFDF75EC9D6D2158A476AF8FD4E0CA /* Info.plist */,
+				C39AB1849E108632367B0F61E244BA79 /* Pods-TimedPageControlView_Example.modulemap */,
+				A121806E64C72EEE2694EDAE393DAFF4 /* Pods-TimedPageControlView_Example-acknowledgements.markdown */,
+				4590A0E0A370E11F842C59CC59DAD4B6 /* Pods-TimedPageControlView_Example-acknowledgements.plist */,
+				891F4A91C8866A42A75D51952FE47327 /* Pods-TimedPageControlView_Example-dummy.m */,
+				AFBA592E73AFEB312A624654ABA7ED5C /* Pods-TimedPageControlView_Example-frameworks.sh */,
+				D00131E065E7987986ED0EE104240B8E /* Pods-TimedPageControlView_Example-resources.sh */,
+				5C8C33EDE484C6D96E984E32F74A2862 /* Pods-TimedPageControlView_Example-umbrella.h */,
+				6C0C19DDB8D3E3043319E56259458C96 /* Pods-TimedPageControlView_Example.debug.xcconfig */,
+				BE531AF7F45824508116211484B776AD /* Pods-TimedPageControlView_Example.release.xcconfig */,
+			);
+			name = "Pods-TimedPageControlView_Example";
+			path = "Target Support Files/Pods-TimedPageControlView_Example";
+			sourceTree = "<group>";
+		};
+		B6C596583CADFE9F45A12A4425E74411 /* TimedPageControlView */ = {
+			isa = PBXGroup;
+			children = (
+				369EC24422C9A5B4C65870A0FC4B5229 /* Support Files */,
+				FFE9A1FD8BD02C22A76567DE6074B67D /* TimedPageControlView */,
+			);
+			name = TimedPageControlView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFA82946BDB736CF8E405B4AB5AEB2E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F392860B5B5220D7CB169CFA4B87F0 /* Pods-TimedPageControlView_Example */,
+				04A15FAB95838102845298FF45AE1AFE /* Pods-TimedPageControlView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FFE9A1FD8BD02C22A76567DE6074B67D /* TimedPageControlView */ = {
+			isa = PBXGroup;
+			children = (
+				9A2F93BB001C3AC14664A1A3F1A0949A /* Classes */,
+			);
+			path = TimedPageControlView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F1963F93F2DF370FD3025168A97131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8926D63C48FB597F4437CE4344255098 /* TimedPageControlView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82D3A640418F71DF6CCFD1A3E4A329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF40E6913DB0FDB4BE2656E9446C1024 /* Pods-TimedPageControlView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6BD1AFC9276C35715D350245C83486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC8124D0BF53FD9D10FFEDD4B1C6C1 /* Pods-TimedPageControlView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		211DE20723BD8081E7E26494E3252025 /* Pods-TimedPageControlView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23451BC66941C434B7A3A5C1B63643A8 /* Build configuration list for PBXNativeTarget "Pods-TimedPageControlView_Tests" */;
+			buildPhases = (
+				C4709E3CD3EF239A388E0598DFA3C4DA /* Sources */,
+				F7B6776B7566550CED908EB57F1653B0 /* Frameworks */,
+				2C82D3A640418F71DF6CCFD1A3E4A329 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TimedPageControlView_Tests";
+			productName = "Pods-TimedPageControlView_Tests";
+			productReference = 75A9BCCB8542641574CD9FE25D160FC0 /* Pods_TimedPageControlView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		420B48214823273491B44112D4353E14 /* TimedPageControlView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C2F2998B3EDB7704C4606E53888C9E /* Build configuration list for PBXNativeTarget "TimedPageControlView" */;
+			buildPhases = (
+				ADF2FF652664C4F363E56B6452853FB0 /* Sources */,
+				BC42124DE8CF022A76B41BEFBE4B45ED /* Frameworks */,
+				04F1963F93F2DF370FD3025168A97131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimedPageControlView;
+			productName = TimedPageControlView;
+			productReference = 348893B96D0B15C0BC335957A5C7F96A /* TimedPageControlView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACA4DDE8C8CCA4B546DC1437FF187F97 /* Pods-TimedPageControlView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0C8373E071B5F9263EC9FF1DC07799 /* Build configuration list for PBXNativeTarget "Pods-TimedPageControlView_Example" */;
+			buildPhases = (
+				FCCEFC377DE75729C9C7A69B71661C84 /* Sources */,
+				4C1C063B34A236ECED195CE9710341E3 /* Frameworks */,
+				8D6BD1AFC9276C35715D350245C83486 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D66407BD31EC5B1977B3D732A5F0AA /* PBXTargetDependency */,
+			);
+			name = "Pods-TimedPageControlView_Example";
+			productName = "Pods-TimedPageControlView_Example";
+			productReference = F93754D58813E7FBBDCD0803D16E99A7 /* Pods_TimedPageControlView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					420B48214823273491B44112D4353E14 = {
+						LastSwiftMigration = 0820;
+					};
+					ACA4DDE8C8CCA4B546DC1437FF187F97 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8E80BC9B5A467B21A4E830CA42EF860B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA4DDE8C8CCA4B546DC1437FF187F97 /* Pods-TimedPageControlView_Example */,
+				211DE20723BD8081E7E26494E3252025 /* Pods-TimedPageControlView_Tests */,
+				420B48214823273491B44112D4353E14 /* TimedPageControlView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF2FF652664C4F363E56B6452853FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0CD8C85742F16EED7F8794B34E0BAA /* TimedPageControlView.swift in Sources */,
+				54912A325489F612B251C39A6A9585A6 /* TimedPageControlView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4709E3CD3EF239A388E0598DFA3C4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E16B1C572013F2D1D53C17FFD5BA73F /* Pods-TimedPageControlView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCEFC377DE75729C9C7A69B71661C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0047BC516307D99DB7B6ABAA83D251 /* Pods-TimedPageControlView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D66407BD31EC5B1977B3D732A5F0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimedPageControlView;
+			target = 420B48214823273491B44112D4353E14 /* TimedPageControlView */;
+			targetProxy = 8542E57566F8D40A6AC30B5F062DD5A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E95903154D619807757E56042AFCDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEA79A561D1BCBFBDFB54CB2827B857 /* Pods-TimedPageControlView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimedPageControlView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimedPageControlView_Tests/Pods-TimedPageControlView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TimedPageControlView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2277BEDFECE464EA0D79EDB3C543CB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B721342EDD1238A870255F2AD20C24E /* TimedPageControlView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimedPageControlView/TimedPageControlView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimedPageControlView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimedPageControlView/TimedPageControlView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TimedPageControlView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		295625F45D9B8E0DE6E0BD12C65375AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471F81EF1520D33A9A1865CC93278F97 /* Pods-TimedPageControlView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimedPageControlView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimedPageControlView_Tests/Pods-TimedPageControlView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TimedPageControlView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		442EF36F9B4FDD7B3EC0FAE7D09C3DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B721342EDD1238A870255F2AD20C24E /* TimedPageControlView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimedPageControlView/TimedPageControlView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimedPageControlView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimedPageControlView/TimedPageControlView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimedPageControlView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		578330B2E91820992F9134B99136D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0C19DDB8D3E3043319E56259458C96 /* Pods-TimedPageControlView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimedPageControlView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimedPageControlView_Example/Pods-TimedPageControlView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TimedPageControlView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DCD124A42C9F6C78CC0E3F4452B3A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE531AF7F45824508116211484B776AD /* Pods-TimedPageControlView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimedPageControlView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimedPageControlView_Example/Pods-TimedPageControlView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TimedPageControlView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0C8373E071B5F9263EC9FF1DC07799 /* Build configuration list for PBXNativeTarget "Pods-TimedPageControlView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578330B2E91820992F9134B99136D94A /* Debug */,
+				9DCD124A42C9F6C78CC0E3F4452B3A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23451BC66941C434B7A3A5C1B63643A8 /* Build configuration list for PBXNativeTarget "Pods-TimedPageControlView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295625F45D9B8E0DE6E0BD12C65375AF /* Debug */,
+				1E95903154D619807757E56042AFCDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C2F2998B3EDB7704C4606E53888C9E /* Build configuration list for PBXNativeTarget "TimedPageControlView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2277BEDFECE464EA0D79EDB3C543CB32 /* Debug */,
+				442EF36F9B4FDD7B3EC0FAE7D09C3DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

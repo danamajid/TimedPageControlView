@@ -1,0 +1,16 @@
+PODS:
+  - TimedPageControlView (0.1.0)
+
+DEPENDENCIES:
+  - TimedPageControlView (from `../`)
+
+EXTERNAL SOURCES:
+  TimedPageControlView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TimedPageControlView: b1df65e7d8d8df8171c0ce40955d400e92dbd0a7
+
+PODFILE CHECKSUM: 9096dabaae6cf129fa4a7792f5460dbc0b633380
+
+COCOAPODS: 1.1.1
