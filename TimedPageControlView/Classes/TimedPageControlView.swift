@@ -104,7 +104,7 @@ public enum ScrollDirection {
         return button
     }
     
-    func pageAnchorTapped(sender : TimedPageButton) {
+    @objc func pageAnchorTapped(sender : TimedPageButton) {
         updateConstraintsForPageAnchors(targetViewIndex: (sender.tag - 1), percentComplete: 1)
     }
     
